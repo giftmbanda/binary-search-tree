@@ -39,10 +39,10 @@ public class Main {
         bst.postOrder();
 
         // search a value in the BST
-        Node minimum = bst.findMinimum(); // return the node with minimum value
-        Boolean find = bst.contains(8); // return the node found else returns null
-        System.out.println("\nfound is: " + minimum.data);
-        System.out.println("Minimum is: " + find);
+        // Node minimum = bst.findMinimum(); // return the node with minimum value
+        // Boolean contains = bst.contains(8); // return the node found else returns null
+        // System.out.println("\nfound is: " + minimum.data);
+        // System.out.println("Minimum is: " + contains);
 
     }
 
